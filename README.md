@@ -17,3 +17,4 @@ Some design goals:
 Some basic assumptions:
 - Site can be installed within an arbitrary directory; it will not work when just put directly into default "htdocs" directory. That is, user must be able to, and know how to, modify httpd.conf or similar configuration. (Many web control panels do make this easy though.)
 - Front-end which delivers and displays existing content to site visitors will be written first; thus actually managing the content will at first require some knowledge of the underlying file structure. (Until a web back-end is written for site content management, it won't really be a CMS.)
+- At first, development practice will assume at least moderate front-end coding skills; won't cater mainly to non-developers and non-coders.
